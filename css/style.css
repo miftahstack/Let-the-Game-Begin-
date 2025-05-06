@@ -82,3 +82,60 @@ body {
 
 
 /* Screen One */
+
+
+/* Screen Two */
+
+
+.screenTwo {
+    display: none;
+    margin: 0 auto;
+    height: 550px;
+    width: 750px;
+    background: #fff;
+}
+
+
+.screenTwo .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.nameInputTwo {
+    margin: 20px 0px;
+    padding: 25px 25px;
+    width: 500px;
+    border-radius: 50px;
+    border: 1px solid #D9D9D9;
+
+}
+
+.nameInputTwo::placeholder {
+    color: #D9D9D9;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.startGameTwo {
+    background: #7041D3;
+    padding: 13px 70px;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+
+.screenTwoError {
+    padding: 10px 110px;
+    background: #CC3030;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+    display:none;
+}
+/* Screen Two */

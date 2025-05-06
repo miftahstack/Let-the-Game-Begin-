@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Number Guesssing Game</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,17 +23,35 @@
     <section id="screenOne">
         <div class="container">
             <div class="screenOne">
-                <h1>Wanna Play game?</h1>
+                <h1 class="title">Wanna Play game?</h1>
+
                 <input class="nameInput" type="text" placeholder="What is your name">
+
                 <button class="startGame" type="button">Start Game</button>
 
                 <h3 class="screenOneError">Name is Missing</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Screen One -->
+
+    <!-- Screen Two -->
+    <section id="screenTwo">
+        <div class="container">
+            <div class="screenTwo">
+                <div class="flex">
+                    <h1 class="titleTwo">Player-1</h1>
+
+                    <input class="nameInputTwo" type="text" placeholder="Give a number">
+                    <button class="startGameTwo" type="button">Let's Play</button>
+
+                    <h3 class="screenTwoError">Please give a number</h3>
+                </div>
 
             </div>
         </div>
     </section>
-
-    <!-- Screen One -->
+    <!-- Screen Two -->
 
     <!-- Script Files -->
     <script src="js/script.js"></script>
